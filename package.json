@@ -1,0 +1,19 @@
+{
+  "author": "thecoder08",
+  "bin": {
+    "mathshoot": "main.js"
+  },
+  "dependencies": {
+    "docuget": "^1.0.2",
+    "stdin-prompt": "^1.0.7",
+    "thecoder08-gui": "^1.0.9",
+    "thecoder08-http": "^1.1.1"
+  },
+  "description": "A video game for a math project we are working on.",
+  "license": "MIT",
+  "name": "math-shoot",
+  "version": "1.0.1"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
