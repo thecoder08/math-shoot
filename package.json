@@ -11,7 +11,7 @@
   },
   "description": "A video game for a math project we are working on.",
   "license": "MIT",
-  "name": "math-shoot",
+  "name": "@thecoder08/math-shoot",
   "version": "1.0.1",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

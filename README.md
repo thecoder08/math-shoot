@@ -4,7 +4,7 @@ Math Shoot is a video game for a math project we are working on.
 ## Installation
 Run the command
 ```shell
-npm i math-shoot -g
+npm i @thecoder08/math-shoot -g
 ```
 to install Math Shoot. (Math Shoot must be installed globally to use the shell command.)
 ## Usage
