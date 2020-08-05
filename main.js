@@ -3,7 +3,7 @@ if (process.argv[2] == 'server') {
   require('./server.js');
 }
 else if (process.argv[2] == 'client') {
-  var gui = require('thecoder08-gui');
+  var gui = require('@thecoder08/gui');
   var path = require('path');
   gui.menu([
     {

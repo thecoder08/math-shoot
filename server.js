@@ -1,5 +1,5 @@
-var http = require('thecoder08-http');
-var prompt = require('stdin-prompt');
+var http = require('@thecoder08/http');
+var prompt = require('@thecoder08/prompt');
 var fs = require('fs');
 var people = {};
 console.log('Server running. Type "help" for help.');
