@@ -76,8 +76,9 @@ process.stdin.on('data', function(data) {
       port: args[4],
       path: '/leave?name=' + encodeURI(args[5]),
       method: 'GET',
-    }, function(data) {});
-    process.exit();
+    }, function(data) {
+      process.exit();
+    });
   }
   else {
     console.log('I don\'t understand.');
