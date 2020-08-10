@@ -46,7 +46,7 @@ setInterval(function() {
     }, function(data) {});
   }
   if (movement == 4) {
-    console.log('Shooting at target...');'
+    console.log('Shooting at target...');
     http.request({
       hostname: args[3],
       port: args[4],
