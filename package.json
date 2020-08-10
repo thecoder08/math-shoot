@@ -12,7 +12,7 @@
   "description": "A video game for a math project we are working on.",
   "license": "MIT",
   "name": "@thecoder08/math-shoot",
-  "version": "1.0.3",
+  "version": "1.0.2",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   }
