@@ -16,6 +16,10 @@ to start the client build.
 
 Run the command
 ```shell
-mathshoot server [port]
+mathshoot server [port] [motd] [icon]
 ```
-to start the server build on port [port].
+to start the server build on port [port] with message of the day [motd] and icon file [icon].
+```shell
+mathshoot bot [address] [port] [name] [target]
+```
+to start a bot on a server with address [address] on port [port] with name [name] who targets [target].
