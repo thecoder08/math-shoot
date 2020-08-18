@@ -30,6 +30,7 @@ var answers = [
   '2'
 ]
 var ammo = 5;
+var people = {};
 var ctx = $('#canvas').getContext('2d');
 function connect() {
   request('http://' + addr + '/join?name=' + name, function(data) {});
@@ -38,6 +39,9 @@ function disconnect() {
   request('http://' + addr + '/leave?name=' + name, function(data) {});
 }
 setInterval(function() {
+  request('http://' + addr + '/get', function(data) {
+    people = JSON.parse(data);
+  });
   $('#canvas').width = $('#canvas').width;
   if (wDown) {
     request('http://' + addr + '/up?name=' + name, function(data) {});
@@ -51,15 +55,13 @@ setInterval(function() {
   if (dDown) {
     request('http://' + addr + '/right?name=' + name, function(data) {});
   }
-  request('http://' + addr + '/get', function(data) {
-    var people = JSON.parse(data);
-    for (var person in people) {
-      ctx.drawImage($('#shot'), people[person].shotX, people[person].shotY);
-      ctx.drawImage($('#player'), people[person].x, people[person].y);
-      ctx.font = '30px Arial';
-      ctx.fillText(person + ': ' + people[person].hp + '/100 HP', people[person].x, people[person].y);
-    }
-  });
+  for (var person in people) {
+    ctx.drawImage($('#shot'), people[person].shotX, people[person].shotY);
+    ctx.drawImage($('#player'), people[person].x, people[person].y);
+    ctx.font = '30px Arial';
+    ctx.fillText(person + ': ' + people[person].hp + '/100 HP', people[person].x, people[person].y);
+  }
+  
 }, 100);
 document.onkeydown = function(event) {
   if (event.code == 'KeyW') {
