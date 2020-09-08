@@ -1,7 +1,7 @@
 {
   "author": "thecoder08",
   "bin": {
-    "mathshoot": "main.js"
+    "mathshootcli": "main.js"
   },
   "dependencies": {
     "@thecoder08/prompt": "^1.0.1",
