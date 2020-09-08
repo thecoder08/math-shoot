@@ -9,8 +9,8 @@
   },
   "description": "The server and bot code for a video game for a math project we are working on.",
   "license": "MIT",
-  "name": "@thecoder08/math-shoot",
-  "version": "1.2.1",
+  "name": "@thecoder08/math-shoot-cli",
+  "version": "1.0.1",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   }
