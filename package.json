@@ -4,15 +4,13 @@
     "mathshoot": "main.js"
   },
   "dependencies": {
-    "@thecoder08/docuget": "^1.0.1",
     "@thecoder08/prompt": "^1.0.1",
-    "@thecoder08/gui": "^1.0.1",
     "@thecoder08/http": "^1.0.1"
   },
-  "description": "A video game for a math project we are working on.",
+  "description": "The server and bot code for a video game for a math project we are working on.",
   "license": "MIT",
   "name": "@thecoder08/math-shoot",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   }
