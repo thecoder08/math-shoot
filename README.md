@@ -6,7 +6,7 @@ Run the command
 ```shell
 npm i @thecoder08/math-shoot-cli -g
 ```
-to install Math Shoot. (Math Shoot must be installed globally to use the shell command.)
+to install Math Shoot CLI. (Math Shoot CLI must be installed globally to use the shell command.)
 ## Usage
 Run the command
 ```shell
