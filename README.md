@@ -10,12 +10,6 @@ to install Math Shoot. (Math Shoot must be installed globally to use the shell c
 ## Usage
 Run the command
 ```shell
-mathshoot client
-```
-to start the client build.  
-
-Run the command
-```shell
 mathshoot server [port] [motd] [icon]
 ```
 to start the server build on port [port] with message of the day [motd] and icon file [icon].
