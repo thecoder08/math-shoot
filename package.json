@@ -4,13 +4,14 @@
     "mathshootcli": "main.js"
   },
   "dependencies": {
-    "@thecoder08/prompt": "^1.0.1",
-    "@thecoder08/http": "^1.0.1"
+    "@thecoder08/http": "^1.0.1",
+    "@thecoder08/lennet": "^1.0.1",
+    "@thecoder08/prompt": "^1.0.1"
   },
   "description": "The server and bot code for a video game for a math project we are working on.",
   "license": "MIT",
   "name": "@thecoder08/math-shoot-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   }

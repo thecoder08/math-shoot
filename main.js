@@ -7,7 +7,7 @@ else if (process.argv[2] == 'bot') {
 }
 else {
   console.log('Usage:');
-  console.log('mathshoot server [port] [motd] [icon]: start server build on port [port] with message of the day [motd] and icon file [icon]');
-  console.log('mathshoot client: start client build');
-  console.log('mathshoot bot [address] [port] [name] [target]: start bot at address [address] on port [port] with name [name] targeting [target]');
+  console.log('mathshootcli server [port] [motd] [icon]: start server build on port [port] with message of the day [motd] and icon file [icon]');
+  console.log('node lennetserver.js [port] [motd] [icon]: start Lennet server build on port [port] with message of the day [motd] and icon file [icon]');
+  console.log('mathshootcli bot [address] [port] [name] [target]: start bot at address [address] on port [port] with name [name] targeting [target]');
 }
